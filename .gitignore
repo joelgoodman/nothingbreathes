@@ -1,0 +1,11 @@
+_site/
+_data/sitetools.js
+node_modules/
+package-lock.json
+config.codekit3
+.DS_Store
+.env
+_cache/
+# Local Netlify folder
+.netlify
+.obsidian
