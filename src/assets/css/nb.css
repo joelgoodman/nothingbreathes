@@ -169,6 +169,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: var(--space-s);
+    padding-block-end: 0;
     bottom: 0;
 }
 .site-title {
@@ -184,6 +185,7 @@ main {
     width: 95vw;
     max-width: 820px;
     margin-inline: auto;
+    padding-block-end: min(120px, 15vh);
 }
 .post-content {
     padding-block: var(--space-l);
