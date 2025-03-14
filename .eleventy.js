@@ -99,6 +99,7 @@ export default function(eleventyConfig) {
 
   /* Passthrough for assets */
   eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/img/favicon.svg": "assets/img/favicon.svg" });
 
   // Markdown configuration
   let options = {
