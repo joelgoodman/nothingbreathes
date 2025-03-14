@@ -1,0 +1,4 @@
+{
+	"layout": "layouts/base.njk",
+	"permalink": "{%- if slug -%}{{- slug -}}{%- else -%}{{- title | slugify-}}{%- endif -%}/"
+}

@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+<article class="post-content">
+    <header>
+        <h1>{{ title }}</h1>
+        <p class="post-content__date"><strong>Posted on:</strong> {{ page.date | readableDate }}</p>
+    </header>
+    <section class="post-content__section">
+        {{ content | safe }}
+    </section>
+</article>

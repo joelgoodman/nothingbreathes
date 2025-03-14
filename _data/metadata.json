@@ -1,0 +1,21 @@
+{
+  "title": "nothing breathes",
+  "url": "https://nothingbreathes.online/",
+  "domain": "nothingbreathes.online",
+  "description": "A personal blog by Joel Goodman. Rewinding it to '06 or so.",
+  "lang": "en",
+  "feed": {
+    "subtitle": "A personal blog by Joel Goodman. Rewinding it to '06 or so.",
+    "filename": "atom.xml",
+    "path": "/feed/atom.xml",
+    "url": "https://nothingbreathes.online/feed/atom.xml",
+    "id": "https://nothingbreathes.online/"
+  },
+  "author": {
+    "name": "Joel Goodman",
+    "email": "hello@joelgoodman.co",
+    "social": {
+      "bluesky": "joelgoodman.co"
+    }
+  }
+}

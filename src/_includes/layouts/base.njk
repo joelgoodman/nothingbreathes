@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{metadata.lang}}" dir="ltr">
+  {% include "../components/head.njk" %}
+  <body>
+    <header class="site-header">
+      {% if url == '/' %}
+      <h1 class="site-title">
+        <a href="/" title="homepage">
+        <span class="sr-only">nothing breathes</span>
+        {% include './assets/img/nothing-breathes.svg' %}
+        </a>
+      </h1>
+      {% else %}
+        <div class="site-title">
+          <a href="/" title="homepage">
+          <span class="sr-only">nothing breathes</span>
+          {% include '../../assets/img/nothing-breathes.svg' %}
+          </a>
+        </div>
+      {% endif %}
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

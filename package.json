@@ -1,0 +1,30 @@
+{
+	"name": "nothingbreathes",
+	"version": "1.0.0",
+	"description": "A minimal blog site",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf _site && rm -rf .cache",
+		"start": "npx @11ty/eleventy --serve --port=8080 --incremental",
+		"build": "npx @11ty/eleventy"
+	},
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0"
+	},
+	"devDependencies": {
+		"@11ty/eleventy-plugin-rss": "^2.0.3",
+		"@fullhuman/postcss-purgecss": "^7.0.2",
+		"cssnano": "^7.0.6",
+		"dotenv": "^16.4.7",
+		"eleventy-plugin-blog-tools": "^0.4.1",
+		"html-minifier": "^4.0.0",
+		"luxon": "^3.5.0",
+		"markdown-it": "^14.1.0",
+		"postcss": "^8.5.3",
+		"postcss-cli": "^11.0.1",
+		"purgecss": "^7.0.2"
+	}
+}
