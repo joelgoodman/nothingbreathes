@@ -1,5 +1,5 @@
 ---
-title: Christian Politics
+title: "Christian Politics / nothing breathes"
 slug: christian-politics
 description: The hypocrisy of evangelical Christian politics in modern America.
 layout: layouts/single.njk
