@@ -8,7 +8,7 @@ permalink: /
 <article class="post-content">
     <header>
         <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-        <p class="post-content__date"><strong>Posted on:</strong> {{ page.date | readableDate }}</p>
+        <p class="post-content__date"><strong>Posted on:</strong> {{ post.data.date | readableDate }}</p>
     </header>
     <section class="post-content__section">
         {{ post.content | safe }}

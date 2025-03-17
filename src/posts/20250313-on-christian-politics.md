@@ -3,7 +3,7 @@ title: "Christian Politics"
 slug: christian-politics
 description: The hypocrisy of evangelical Christian politics in modern America.
 layout: layouts/single.njk
-date: 2025-03-13
+date: 2025-03-14
 ---
 
 Your politics and the way you vote is a type of fruit. When the leaders you helped put in office make decisions that allow millions to die, cause your friend’s business to go bankrupt, make the rich richer while making the poor more oppressed, and cause children to go hungry — what else can you assume than that fruit is rotten.

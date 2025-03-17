@@ -185,7 +185,7 @@ main {
     width: 95vw;
     max-width: 820px;
     margin-inline: auto;
-    padding-block-end: min(120px, 15vh);
+    padding-block-end: clamp(1.25rem, 9.06rem + 7.81vw, 20vh);
 }
 .post-content {
     padding-block: var(--space-l);

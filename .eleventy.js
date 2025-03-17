@@ -4,6 +4,7 @@ import blogTools from "eleventy-plugin-blog-tools";
 import htmlmin from "html-minifier";
 import CleanCSS from "clean-css";
 import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it"; // Add this import
 
 const TIME_ZONE = "America/Los_Angeles";
 
@@ -113,6 +114,9 @@ export default function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   };
+
+  const markdownLib = markdownIt(options).use(markdownItAnchor, opts); // Use imported markdownItAnchor
+  eleventyConfig.setLibrary("md", markdownLib);
 
   return {
     dir: {
